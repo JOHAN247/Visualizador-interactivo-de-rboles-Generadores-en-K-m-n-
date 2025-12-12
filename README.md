@@ -12,7 +12,7 @@ La app muestra:
 ## 🚀 Demo en línea
 
  **App desplegada en Streamlit:**  
-[🔗 Abrir visualizador](https://TU-URL-DE-STREAMLIT.streamlit.app)
+[🔗 Abrir visualizador](https://nrdpssue4enzneggc6kcc8.streamlit.app)
 
 > Si el enlace no funciona, puede que la app esté dormida. Solo recarga o vuelve a intentar en unos segundos.
 

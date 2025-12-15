@@ -67,18 +67,6 @@ def random_spanning_tree_bipartite(M: List[Label], N: List[Label]) -> List[Edge]
     Genera un árbol generador aleatorio sobre el grafo bipartito completo K(m,n),
     respetando la bipartición (solo aristas M-N).
 
-    Estrategia:
-        - Usamos una versión de Prim:
-            * Elegimos un nodo inicial al azar.
-            * Mientras haya nodos sin visitar:
-                - Consideramos todas las aristas (u, v) con u en visitados y v no visitado,
-                  respetando que u y v estén en particiones opuestas.
-                - Elegimos una arista al azar y añadimos v al conjunto visitado.
-        - Esto garantiza:
-            * Conexidad
-            * Sin ciclos
-            * m + n - 1 aristas
-
     Complejidad: O((m+n)^3) en el peor caso, pero para m,n pequeños (≤ 6–7) es más que suficiente.
     """
     M_set: Set[Label] = set(M)

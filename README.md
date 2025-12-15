@@ -20,8 +20,7 @@ La app muestra:
 
 ## 🖼️ Vista previa
 
- Agrega una captura de pantalla de tu app en una carpeta `img/` y pon aquí algo así:
-
+Pantalla principal
 ![Screenshot de la app](img/screenshot.png)
 
 ---
